@@ -1,13 +1,13 @@
 // Karma configuration
 // Generated on Fri Sep 14 2018 15:20:17 GMT+0800 (CST)
 
-var webpackConfig = require('./webpack.test.conf');
+var webpackConfig = require('./test/webpack.test.conf');
 
 module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '',
+    basePath: 'test',
 
     frameworks: ['jasmine'],
     files: [
